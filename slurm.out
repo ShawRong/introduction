@@ -1,0 +1,10 @@
+Greetings from process 0 of 2!
+Greetings from process 1 of 2!
+"mpi_hello.c", line 30: warning: variable-length array treated as a fixed size array [vla_treated_as_fixed_size_array]
+     char       greeting[MAX_STRING];  /* String storing message */
+                         ^
+
+Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
+
+Greetings from process 0 of 2!
+Greetings from process 1 of 2!

@@ -11,6 +11,6 @@
 module purge                     # clear environment modules inherited from submission
 module load nvhpc/23.11          # load the module that contains the mpi module
 
-mpic++ -std=c++11 -o mpi_hello mpi_hello.cpp
+mpicc -g -Wall -std=c99 -o mpi_hello mpi_hello.c
 
 mpiexec -n 2 ./mpi_hello
